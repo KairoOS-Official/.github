@@ -11,10 +11,10 @@ Gamepad-first, plugin-powered, fully customizable.
 
 | Repo | Description |
 |------|-------------|
-| [KairoOS](https://github.com/KairoOS/KairoOS) | Main application — Tauri 2 + Rust + React 19 |
-| [kairos-plugins](https://github.com/KairoOS/kairos-plugins) | Official & community plugins |
-| [kairos-themes](https://github.com/KairoOS/kairos-themes) | Official & community themes |
-| [kairos-docs](https://github.com/KairoOS/kairos-docs) | Developer documentation |
+| [KairoOS](https://github.com/KairoOS-Official/KairoOS) | Main application — Tauri 2 + Rust + React 19 |
+| [kairos-plugins](https://github.com/KairoOS-Official/kairos-plugins) | Official & community plugins |
+| [kairos-themes](https://github.com/KairoOS-Official/kairos-themes) | Official & community themes |
+| [kairos-docs](https://github.com/KairoOS-Official/kairos-docs) | Developer documentation |
 
 ---
 
@@ -22,13 +22,13 @@ Gamepad-first, plugin-powered, fully customizable.
 
 Plugins can be built in any language (JS, Rust, Python...).  
 They communicate with KairoOS via a simple stdin/stdout JSON protocol.  
-→ [Plugin Guide](https://github.com/KairoOS/kairos-plugins/blob/main/PLUGIN_GUIDE.md)
+→ [Plugin Guide](https://github.com/KairoOS-Official/kairos-plugins/blob/main/PLUGIN_GUIDE.md)
 
 ## 🎨 Create a Theme
 
 Themes are simple JSON files + assets.  
 No coding required — just colors, fonts and images.  
-→ [Theme Guide](https://github.com/KairoOS/kairos-themes/blob/main/THEME_GUIDE.md)
+→ [Theme Guide](https://github.com/KairoOS-Official/kairos-themes/blob/main/THEME_GUIDE.md)
 
 ## 📥 Submit your work
 
