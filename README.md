@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KairoOS-Official/.github/main/assets/kairo-header-dark.png">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KairoOS-Official/.github/main/assets/kairo-header.png">
-      <img src="https://raw.githubusercontent.com/KairoOS-Official/.github/main/assets/kairo-header.png" alt="KaïroOS Software" width="100%" />
+      <img src="https://raw.githubusercontent.com/KairoOS-Official/.github/main/assets/kairo-header.png" alt="KaïroOS Software" width="440" />
     </picture>
   </a>
 </p>
