@@ -1,0 +1,33 @@
+# Workflow réutilisable : valide la structure des thèmes soumis.
+# Usage dans kairos-themes (.github/workflows/ci.yml) :
+#   jobs:
+#     validate:
+#       uses: KairoOS-Official/.github/.github/workflows/validate-theme.yml@main
+name: Validate theme
+
+on:
+  workflow_call:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check theme structure
+        shell: bash
+        run: |
+          FAIL=0
+          for dir in official/*/ community/*/; do
+            [ -d "$dir" ] || continue
+            name=$(basename "$dir")
+            if [[ "$dir" == community/* && "$name" != *-* ]]; then
+              echo "::error:: community/$name : nom sans préfixe pseudo- (ex: flo-neonblue)"
+              FAIL=1
+            fi
+            JSON=$(ls "$dir"/*.json 2>/dev/null | head -1)
+            [ -n "$JSON" ] || { echo "::error::$dir : aucun JSON de thème"; FAIL=1; continue; }
+            python3 -c "import json; json.load(open('$JSON'))" \
+              || { echo "::error::$JSON : JSON invalide"; FAIL=1; }
+            [ -f "$dir/README.md" ] || { echo "::warning::$dir : README.md manquant"; }
+          done
+          exit $FAIL

@@ -1,0 +1,28 @@
+# Referme les issues/PR inactives. Copiez ce fichier dans le repo concerné
+# (.github/workflows/stale.yml) — il ne tourne pas depuis le repo .github lui-même.
+name: Stale
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/stale@v9
+        with:
+          days-before-stale: 60
+          days-before-close: 14
+          stale-issue-message: >
+            Cette issue est inactive depuis 60 jours et sera fermée dans 14 jours.
+            Commentez pour la garder ouverte.
+          stale-pr-message: >
+            Cette PR est inactive depuis 60 jours et sera fermée dans 14 jours.
+            Poussez un commit ou commentez pour la garder ouverte.
+          exempt-issue-labels: pinned,security
+          exempt-pr-labels: pinned

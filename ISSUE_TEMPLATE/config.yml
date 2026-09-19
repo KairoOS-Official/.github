@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Question / Discussion
+    url: https://github.com/orgs/KairoOS-Official/discussions
+    about: Une question d'usage ou d'aide ? Passez par les Discussions, pas les issues.
+  - name: 📖 Guides
+    url: https://github.com/KairoOS-Official/kairos-plugins/blob/main/PLUGIN_GUIDE.md
+    about: Guide de création de plugins.
+  - name: 🎨 Guide des thèmes
+    url: https://github.com/KairoOS-Official/kairos-themes/blob/main/THEME_GUIDE.md
+    about: Guide de création de thèmes.

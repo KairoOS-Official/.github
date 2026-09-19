@@ -1,0 +1,33 @@
+# Workflow réutilisable : valide la structure des plugins soumis.
+# Usage dans kairos-plugins (.github/workflows/ci.yml) :
+#   jobs:
+#     validate:
+#       uses: KairoOS-Official/.github/.github/workflows/validate-plugin.yml@main
+name: Validate plugin
+
+on:
+  workflow_call:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check plugin structure
+        shell: bash
+        run: |
+          FAIL=0
+          for dir in official/*/ community/*/; do
+            [ -d "$dir" ] || continue
+            name=$(basename "$dir")
+            # Règle de nommage community : préfixe pseudo-
+            if [[ "$dir" == community/* && "$name" != *-* ]]; then
+              echo "::error:: community/$name : nom sans préfixe pseudo- (ex: flo-monplugin)"
+              FAIL=1
+            fi
+            [ -f "$dir/plugin.json" ] || { echo "::error::$dir : plugin.json manquant"; FAIL=1; continue; }
+            [ -f "$dir/README.md" ] || { echo "::warning::$dir : README.md manquant"; }
+            python3 -c "import json,sys; d=json.load(open('$dir/plugin.json')); assert all(k in d for k in ('id','version','entry')), 'clés id/version/entry requises'" \
+              || { echo "::error::$dir/plugin.json invalide"; FAIL=1; }
+          done
+          exit $FAIL

@@ -1,0 +1,48 @@
+name: 🐛 Bug report
+description: Signaler un bug de l'app, d'un plugin ou d'un thème
+labels: [bug]
+body:
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Repo concerné
+      options:
+        - KairoOS (app)
+        - kairos-plugins
+        - kairos-themes
+        - kairos-website
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: ex. 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin / thème concerné (si applicable)
+      options:
+        - Aucun (core)
+        - Autre (préciser ci-dessous)
+  - type: textarea
+    id: repro
+    attributes:
+      label: Étapes de reproduction
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / captures
+      description: Collez les logs ou ajoutez une capture/vidéo
+      render: shell
