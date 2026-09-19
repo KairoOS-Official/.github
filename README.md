@@ -37,15 +37,19 @@ Gamepad-first, plugin-powered, fully customizable.
 
 ## 🧩 Create a Plugin
 
+[![Website Plugins](https://img.shields.io/badge/Website-kairo--arcade.onrender.com%2Fplugins-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white)](https://kairo-arcade.onrender.com/plugins/)
+
 Plugins can be built in any language (JS, Rust, Python...).  
 They communicate with KairoOS via a simple stdin/stdout JSON protocol.  
-→ [Plugin Guide](https://github.com/KairoOS-Official/kairos-plugins/blob/main/PLUGIN_GUIDE.md)
+→ [Plugin Guide](https://github.com/KairoOS-Official/kairos-plugins/blob/main/PLUGIN_GUIDE.md) | [Catalogue en ligne](https://kairo-arcade.onrender.com/plugins/)
 
 ## 🎨 Create a Theme
 
+[![Website Themes](https://img.shields.io/badge/Website-kairo--arcade.onrender.com%2Fthemes-EC4899?style=flat-square&logo=googlechrome&logoColor=white)](https://kairo-arcade.onrender.com/themes/)
+
 Themes are simple JSON files + assets.  
 No coding required — just colors, fonts and images.  
-→ [Theme Guide](https://github.com/KairoOS-Official/kairos-themes/blob/main/THEME_GUIDE.md)
+→ [Theme Guide](https://github.com/KairoOS-Official/kairos-themes/blob/main/THEME_GUIDE.md) | [Vitrine & Simulateur CRT](https://kairo-arcade.onrender.com/themes/)
 
 ## 📥 Submit your work
 

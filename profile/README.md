@@ -34,9 +34,11 @@ Gamepad-first. Plugin-powered. Fully customizable.
 
 ## 🧩 Plugins
 
+[![Website Plugins](https://img.shields.io/badge/Website-kairo--arcade.onrender.com%2Fplugins-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white)](https://kairo-arcade.onrender.com/plugins/)
+
 Build plugins in any language — JS, Rust, Python, anything.  
 Communication via stdin/stdout JSON protocol.  
-→ [Plugin Guide](https://github.com/KairoOS-Official/kairos-plugins/blob/main/PLUGIN_GUIDE.md)
+→ [Plugin Guide](https://github.com/KairoOS-Official/kairos-plugins/blob/main/PLUGIN_GUIDE.md) | [Catalogue en ligne](https://kairo-arcade.onrender.com/plugins/)
 
 **Publish your plugin** → drop your folder in `community/` directly. No PR needed.  
 Naming rule: `yourname-pluginname` (example: `flo-achievements`)  
@@ -46,8 +48,10 @@ Names without prefix are reserved for official plugins.
 
 ## 🎨 Themes
 
+[![Website Themes](https://img.shields.io/badge/Website-kairo--arcade.onrender.com%2Fthemes-EC4899?style=flat-square&logo=googlechrome&logoColor=white)](https://kairo-arcade.onrender.com/themes/)
+
 Themes are JSON + assets. No coding required.  
-→ [Theme Guide](https://github.com/KairoOS-Official/kairos-themes/blob/main/THEME_GUIDE.md)
+→ [Theme Guide](https://github.com/KairoOS-Official/kairos-themes/blob/main/THEME_GUIDE.md) | [Vitrine & Simulateur CRT](https://kairo-arcade.onrender.com/themes/)
 
 **Publish your theme** → drop your folder in `community/` directly. No PR needed.  
 Naming rule: `yourname-themename` (example: `flo-neonblue`)
