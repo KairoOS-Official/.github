@@ -31,7 +31,7 @@ Gamepad-first, plugin-powered, fully customizable.
 | [KairoOS](https://github.com/KairoOS-Official/KairoOS) | Main application — Tauri 2 + Rust + React 19 |
 | [kairos-plugins](https://github.com/KairoOS-Official/kairos-plugins) | Official & community plugins |
 | [kairos-themes](https://github.com/KairoOS-Official/kairos-themes) | Official & community themes |
-| [kairos-docs](https://github.com/KairoOS-Official/kairos-docs) | Developer documentation |
+| [Documentation](https://github.com/KairoOS-Official/KairoOS/tree/main/docs) | Architecture, guides développeurs & thèmes |
 
 ---
 
@@ -53,8 +53,8 @@ No coding required — just colors, fonts and images.
 
 ## 📥 Submit your work
 
-- **Plugin** → open a PR in [kairos-plugins/community/](https://github.com/KairoOS-Official/kairos-plugins)
-- **Theme** → open a PR in [kairos-themes/community/](https://github.com/KairoOS-Official/kairos-themes)
+- **Plugin** → open a PR in [kairos-plugins/community/](https://github.com/KairoOS-Official/kairos-plugins) or add topic `kairoos-plugin`
+- **Theme** → open a PR in [kairos-themes/community/](https://github.com/KairoOS-Official/kairos-themes) or add topic `kairoos-theme`
 
 ---
 
@@ -65,5 +65,6 @@ No coding required — just colors, fonts and images.
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust" alt="Rust" />
   <img src="https://img.shields.io/badge/Tauri_2-24C8D8?style=flat-square&logo=tauri" alt="Tauri" />
   <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
+  <a href="https://github.com/KairoOS-Official/KairoOS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Noncommercial-blue.svg?style=flat-square" alt="License: Noncommercial" /></a>
+  <a href="https://kairo-arcade.onrender.com/pro/"><img src="https://img.shields.io/badge/Commercial-KaïroOS_Pro-gold.svg?style=flat-square" alt="Commercial: KaïroOS Pro" /></a>
 </p>
