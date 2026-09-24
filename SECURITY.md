@@ -11,6 +11,7 @@
 ## Signaler une vulnérabilité
 
 **Ne créez pas d'issue publique.** Contactez directement :
+- Email : [contact@flowcrea.fr](mailto:contact@flowcrea.fr)
 - Discord : `nayrolf_rdgs`
 - GitHub : [@NayrolfRdgs](https://github.com/NayrolfRdgs)
 

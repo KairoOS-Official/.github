@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://kairo-arcade.onrender.com/" target="_blank" rel="noopener noreferrer">
+  <a href="https://kairo.flowcrea.fr/" target="_blank" rel="noopener noreferrer">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KairoOS-Official/.github/main/assets/kairo-header-dark.png">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KairoOS-Official/.github/main/assets/kairo-header.png">
@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://kairo-arcade.onrender.com/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Website-kairo--arcade.onrender.com-6366F1?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" />
+  <a href="https://kairo.flowcrea.fr/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Website-kairo.flowcrea.fr-6366F1?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
 </p>
 
@@ -27,7 +27,7 @@ Gamepad-first, plugin-powered, fully customizable.
 
 | Resource | Description |
 |----------|-------------|
-| [🌐 Website & Live Demo](https://kairo-arcade.onrender.com/) | Official showcase website, interactive demo & CRT simulator |
+| [🌐 Website & Live Demo](https://kairo.flowcrea.fr/) | Official showcase website, interactive demo & CRT simulator |
 | [KairoOS](https://github.com/KairoOS-Official/KairoOS) | Main application — Tauri 2 + Rust + React 19 |
 | [kairos-plugins](https://github.com/KairoOS-Official/kairos-plugins) | Official & community plugins |
 | [kairos-themes](https://github.com/KairoOS-Official/kairos-themes) | Official & community themes |
@@ -37,19 +37,19 @@ Gamepad-first, plugin-powered, fully customizable.
 
 ## 🧩 Create a Plugin
 
-[![Website Plugins](https://img.shields.io/badge/Website-kairo--arcade.onrender.com%2Fplugins-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white)](https://kairo-arcade.onrender.com/plugins/)
+[![Website Plugins](https://img.shields.io/badge/Website-kairo.flowcrea.fr%2Fplugins-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white)](https://kairo.flowcrea.fr/plugins/)
 
 Plugins can be built in any language (JS, Rust, Python...).  
 They communicate with KairoOS via a simple stdin/stdout JSON protocol.  
-→ [Plugin Guide](https://github.com/KairoOS-Official/kairos-plugins/blob/main/PLUGIN_GUIDE.md) | [Catalogue en ligne](https://kairo-arcade.onrender.com/plugins/)
+→ [Plugin Guide](https://github.com/KairoOS-Official/kairos-plugins/blob/main/PLUGIN_GUIDE.md) | [Catalogue en ligne](https://kairo.flowcrea.fr/plugins/)
 
 ## 🎨 Create a Theme
 
-[![Website Themes](https://img.shields.io/badge/Website-kairo--arcade.onrender.com%2Fthemes-EC4899?style=flat-square&logo=googlechrome&logoColor=white)](https://kairo-arcade.onrender.com/themes/)
+[![Website Themes](https://img.shields.io/badge/Website-kairo.flowcrea.fr%2Fthemes-EC4899?style=flat-square&logo=googlechrome&logoColor=white)](https://kairo.flowcrea.fr/themes/)
 
 Themes are simple JSON files + assets.  
 No coding required — just colors, fonts and images.  
-→ [Theme Guide](https://github.com/KairoOS-Official/kairos-themes/blob/main/THEME_GUIDE.md) | [Vitrine & Simulateur CRT](https://kairo-arcade.onrender.com/themes/)
+→ [Theme Guide](https://github.com/KairoOS-Official/kairos-themes/blob/main/THEME_GUIDE.md) | [Vitrine & Simulateur CRT](https://kairo.flowcrea.fr/themes/)
 
 ## 📥 Submit your work
 
@@ -61,10 +61,18 @@ No coding required — just colors, fonts and images.
 ## 🛠️ Built with
 
 <p align="center">
-  <a href="https://kairo-arcade.onrender.com/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Website-kairo--arcade.onrender.com-6366F1?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://kairo.flowcrea.fr/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Website-kairo.flowcrea.fr-6366F1?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust" alt="Rust" />
   <img src="https://img.shields.io/badge/Tauri_2-24C8D8?style=flat-square&logo=tauri" alt="Tauri" />
   <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react" alt="React" />
   <a href="https://github.com/KairoOS-Official/KairoOS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Noncommercial-blue.svg?style=flat-square" alt="License: Noncommercial" /></a>
-  <a href="https://kairo-arcade.onrender.com/pro/"><img src="https://img.shields.io/badge/Commercial-KaïroOS_Pro-gold.svg?style=flat-square" alt="Commercial: KaïroOS Pro" /></a>
+  <a href="https://kairo.flowcrea.fr/pro/"><img src="https://img.shields.io/badge/Commercial-KaïroOS_Pro-gold.svg?style=flat-square" alt="Commercial: KaïroOS Pro" /></a>
 </p>
+
+---
+
+<div align="center">
+
+**FlowCreativeStudio** · Florian ([@NayrolfRdgs](https://github.com/NayrolfRdgs)) · Email: [contact@flowcrea.fr](mailto:contact@flowcrea.fr) · Discord: `nayrolf_rdgs` · Site: [kairo.flowcrea.fr](https://kairo.flowcrea.fr/)
+
+</div>
